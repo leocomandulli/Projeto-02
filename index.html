@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treine.me</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="page">
 
-    <header> <!--Cabeçalho-->
+    <!--Cabeçalho, sem o hadaer para uasar o nav-->
 
-        <img 
-        src="./images/logo.svg"
-        alt="Logo treine.me"> 
-    
+
         <nav> <!--menu de navegação através de lista não oredenada (ul)-->
+            <a id="logo" href="#">
+             <img 
+             src="./images/logo.svg"
+             alt="Logo treine.me"> 
+            </a>
+     
             <ul>
-               <li>Home</li>     
-               <li>Sobre</li>
-               <li>Treinar</li>
+               <li><a href="#">Home</a></li>     
+               <li><a href="#">Sobre</a></li>
+               <li><a href="#">Treinar</a></li>
             </ul>
         </nav>
-    </header>
-
-    <main>
+  
+ <main>
 
         <section class="text">
             <h1>Treinos exclusivos para você!</h1>

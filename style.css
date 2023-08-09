@@ -1,0 +1,24 @@
+.page {
+
+    border: 1px solid red   ;
+
+    width: 1000px;
+    margin: 65px auto 0px;
+}
+
+nav {
+    /*Torna o header flex para alinha lateralmente e posicionar a logo e o nav*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+ul {
+    /*posiconamento*/
+    display: flex;
+    list-style: none;
+    gap: 48px; /*espaçamento entre itens*/
+    margin: 0;
+    padding: 0;
+}
