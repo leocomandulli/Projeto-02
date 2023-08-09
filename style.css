@@ -40,7 +40,25 @@ button {
 
     text-transform: uppercase; /*transforma o texto em caixa alta*/
     font-size: 16px;
+    color: white;
+
+    background: #69B99D; /* propriedade para colorir fundo de caixa*/
+    border: none;
+    border-radius: 10px;
+    padding: 14px 32px 15px;
     
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    cursor: pointer;    
+    
+}
+
+button:hover {
+    background: #4b9078;
 }
 
 footer {
