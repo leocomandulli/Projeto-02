@@ -4,8 +4,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 
     /*configuração do background degradê*/
-    height: 100vh; /*altura corresponder a 100% do viewport*/
-    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh; /*altura corresponder a 100% do viewport*/
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 80%, rgba(227, 255, 248, 0.38) 100%);
 }
 
 .page {
@@ -13,7 +13,9 @@ body {
    /* border: 1px solid red   ;*/
 
     width: 1000px;
-    margin: 65px auto 0px;
+    /*margin: 65px auto 0px;*/
+    margin: auto;
+    padding-top: 65px;
 }
 
 h1, ul {
@@ -98,11 +100,15 @@ ul {
 
 ul li a {
     color: #1F1534;
+    opacity: 0.5;
     text-decoration: none;
+    transition-duration: 0.2s;
 }
 
 ul li a:hover {
     font-weight: bold;
+    opacity: 1;
+    
 }
 
 main {
