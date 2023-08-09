@@ -2,6 +2,10 @@ body {
 
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+
+    /*configuração do background degradê*/
+    height: 100vh; /*altura corresponder a 100% do viewport*/
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
 }
 
 .page {
@@ -105,4 +109,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#balls {
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
